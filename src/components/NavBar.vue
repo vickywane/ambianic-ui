@@ -31,6 +31,7 @@
 
       <amb-button
         data-cy="timeline-icon"
+        id="timeline-icon"
         is-icon
         icon="history"
         btn-color="secondary"
