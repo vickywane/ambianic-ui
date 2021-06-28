@@ -9623,10 +9623,10 @@ klona@^2.0.4:
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.4.tgz#7bb1e3affb0cb8624547ef7e8f6708ea2e39dfc0"
   integrity sha512-ZRbnvdg/NxqzC7L9Uyqzf4psi1OM4Cuc+sJAkQPjO6XkQIJTNbfK2Rsmbw8fx1p2mkZdp2FZYo2+LwXYY/uwIA==
 
-konva@^7.1.4:
-  version "7.2.5"
-  resolved "https://registry.yarnpkg.com/konva/-/konva-7.2.5.tgz#9b4ac3a353e6be66e3e69123bf2a0cbc61efeb26"
-  integrity sha512-yk/li8rUF+09QNlOdkwbEId+QvfATMe/aMGVouWW1oFoUVTYWHsQuIAE6lWy11DK8mLJEJijkNAXC5K+NVlMew==
+konva@^8.0.4:
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/konva/-/konva-8.0.4.tgz#8ed6d9c7898ecae589fbfc275d3a035ce009c7bf"
+  integrity sha512-jB/97G7Ee3Ns+QxY/fBoeIoqb9iShxzCA3gVOqXEFCy4/AqQnWelbHfgSm/03GEXhWiJm7ID71Z6Rg1VX4J+8w==
 
 labeled-stream-splicer@^2.0.0:
   version "2.0.2"
