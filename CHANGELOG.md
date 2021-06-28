@@ -1,5 +1,162 @@
 # Semantic Versioning Changelog
 
+## [2.14.1](https://github.com/ambianic/ambianic-ui/compare/v2.14.0...v2.14.1) (2021-04-18)
+
+
+### Bug Fixes
+
+* js linting error ([4b6b974](https://github.com/ambianic/ambianic-ui/commit/4b6b9747710a7ca7eb749dcb1b5826791fed6298))
+
+# [2.14.0](https://github.com/ambianic/ambianic-ui/compare/v2.13.2...v2.14.0) (2021-04-07)
+
+
+### Bug Fixes
+
+* gitpod [skip ci] ([4cc85a8](https://github.com/ambianic/ambianic-ui/commit/4cc85a88647c2727c66701602492b2cdf295c6ad))
+* gitpod [skip ci] ([65586d8](https://github.com/ambianic/ambianic-ui/commit/65586d812af066cb19065ab03b639b30b7d93e1f))
+* gitpod [skip ci] ([c7fc765](https://github.com/ambianic/ambianic-ui/commit/c7fc765d5c86ea468c1bcc52c2e768a8d90824e4))
+* gitpod [skip ci] ([ffe2e86](https://github.com/ambianic/ambianic-ui/commit/ffe2e86ef5bd5b2d6ce4e7fe902454873f6c4dd6))
+* gitpod [skip ci] ([19e1d40](https://github.com/ambianic/ambianic-ui/commit/19e1d409910313b259d85a60f2a0f9a970938809))
+* gitpod [skip ci] ([060ee4c](https://github.com/ambianic/ambianic-ui/commit/060ee4c6ca563589774a7666378775b827f6a85e))
+* gitpod cypress port share [skip ci] ([408126c](https://github.com/ambianic/ambianic-ui/commit/408126c45b07a53482de006c2f4d9f4fe8d2e15b))
+* gitpod script [sckip-ci] ([1271c0c](https://github.com/ambianic/ambianic-ui/commit/1271c0cb8ee4f087681af7eaa270f6e87eeb7132))
+* lint [skip ci] ([fb6f346](https://github.com/ambianic/ambianic-ui/commit/fb6f346652bbd829bc5a259a7803050b67df8b0f))
+* merge branch 'master' of https://github.com/ivelin/ambianic-ui [skip ci] ([816320e](https://github.com/ambianic/ambianic-ui/commit/816320e431e0189bf573248188627df597f0cbfc))
+* merge branch 'master' of https://github.com/ivelin/ambianic-ui [skip ci] ([3a15a44](https://github.com/ambianic/ambianic-ui/commit/3a15a4499e94739de3af05afba3c7f0188077052))
+* multi PWA support on one device; closes [#300](https://github.com/ambianic/ambianic-ui/issues/300) ([6b110bd](https://github.com/ambianic/ambianic-ui/commit/6b110bd88a95517cff75a3cd5261a5d733d13f07))
+
+
+### Features
+
+* multiple UI PWA instances open on one device; closes [#300](https://github.com/ambianic/ambianic-ui/issues/300) ([ebcc65a](https://github.com/ambianic/ambianic-ui/commit/ebcc65a41fb39057f4420cf524cda968d39587e0)), closes [#600](https://github.com/ambianic/ambianic-ui/issues/600)
+
+## [2.13.2](https://github.com/ambianic/ambianic-ui/compare/v2.13.1...v2.13.2) (2021-03-30)
+
+
+### Bug Fixes
+
+* broken test ([acd7222](https://github.com/ambianic/ambianic-ui/commit/acd722282843a2b6e9bcb27bf55beff5ffd92019))
+* docker script ([ed11812](https://github.com/ambianic/ambianic-ui/commit/ed118128798915fd7e758699319674b8ebb32c59))
+* improve timeline UX when p2p connection is down ([ed47f5a](https://github.com/ambianic/ambianic-ui/commit/ed47f5a9bf794eda81dbd196c96897a1199d3c28)), closes [#594](https://github.com/ambianic/ambianic-ui/issues/594)
+* improve timeline UX when p2p connection is down ([3120cf3](https://github.com/ambianic/ambianic-ui/commit/3120cf3ad9f3481df3b28c3061e321963572f29a))
+* tests to match latest UX ([3cf0d69](https://github.com/ambianic/ambianic-ui/commit/3cf0d695ba5a0e2b96e8d35dbe03fbf47a84c859)), closes [#1](https://github.com/ambianic/ambianic-ui/issues/1)
+* tests to match latest UX ([e5bf76a](https://github.com/ambianic/ambianic-ui/commit/e5bf76a3415703899edd043014746748c5483e54))
+* update test to reflect latest UX ([4f99496](https://github.com/ambianic/ambianic-ui/commit/4f99496f171d2a56a2ce194470e089b580890576))
+* update tests to match latest UX ([a8b937f](https://github.com/ambianic/ambianic-ui/commit/a8b937f3f0e6ed6d03719c47f34460bbc58c68ea))
+
+## [2.13.1](https://github.com/ambianic/ambianic-ui/compare/v2.13.0...v2.13.1) (2021-03-29)
+
+
+### Bug Fixes
+
+* comment out debug log ([3b6b200](https://github.com/ambianic/ambianic-ui/commit/3b6b2008d9df1f92aaed597cb7c0bda1c0845a43))
+* silent console error when trying to draw a detection box for falls ([8625e2a](https://github.com/ambianic/ambianic-ui/commit/8625e2afc181459ddbe902e00f299c73f302dfb9)), closes [#593](https://github.com/ambianic/ambianic-ui/issues/593)
+* silent console error when trying to draw a detection box for falls ([b2f0da2](https://github.com/ambianic/ambianic-ui/commit/b2f0da2ff7fff8507844708782be1f781bb44919))
+
+# [2.13.0](https://github.com/ambianic/ambianic-ui/compare/v2.12.4...v2.13.0) (2021-03-12)
+
+
+### Features
+
+* added timeline icon to navbar ([ba64ac2](https://github.com/ambianic/ambianic-ui/commit/ba64ac27435d0990c6eb741817d6dbdcba44eac5))
+* corrected timeline button visibility ([85a071f](https://github.com/ambianic/ambianic-ui/commit/85a071fe953b0a5fe9e27f27c8887884eb92fd02))
+
+## [2.12.4](https://github.com/ambianic/ambianic-ui/compare/v2.12.3...v2.12.4) (2021-02-11)
+
+
+### Bug Fixes
+
+* settings button styling ([86f83fa](https://github.com/ambianic/ambianic-ui/commit/86f83fa67ded1963d25b527a5062ad8dad8d21df)), closes [#519](https://github.com/ambianic/ambianic-ui/issues/519)
+* settings button styling ([f482d65](https://github.com/ambianic/ambianic-ui/commit/f482d659a17e566634c1b91e50eb065af3554d7a))
+
+## [2.12.3](https://github.com/ambianic/ambianic-ui/compare/v2.12.2...v2.12.3) (2021-02-10)
+
+
+### Bug Fixes
+
+* off colors ([ecae304](https://github.com/ambianic/ambianic-ui/commit/ecae304e79262037b93f151bb1f6da2edb7bcd65))
+* theme color issues; closes [#492](https://github.com/ambianic/ambianic-ui/issues/492); closes [#488](https://github.com/ambianic/ambianic-ui/issues/488) ([e03ed7d](https://github.com/ambianic/ambianic-ui/commit/e03ed7d8b0b4aa74313d14713b54724938540d9b)), closes [#518](https://github.com/ambianic/ambianic-ui/issues/518)
+* theme color issues; closes [#492](https://github.com/ambianic/ambianic-ui/issues/492); closes [#488](https://github.com/ambianic/ambianic-ui/issues/488) ([7fef043](https://github.com/ambianic/ambianic-ui/commit/7fef04324a705d2045e95cfc7eb4a28539b42af9))
+
+## [2.12.2](https://github.com/ambianic/ambianic-ui/compare/v2.12.1...v2.12.2) (2021-02-08)
+
+
+### Bug Fixes
+
+* adjusted visibility container grid to use vuetify grids ([381cda3](https://github.com/ambianic/ambianic-ui/commit/381cda39290ddb207ba6124b126e8e8098ac9ab1))
+* make peer id visibility toggle icon responsive to small resolutions ([1bba341](https://github.com/ambianic/ambianic-ui/commit/1bba34100441c021f257c1d5d6a2faefa84889f8)), closes [#514](https://github.com/ambianic/ambianic-ui/issues/514)
+* update obselete test suite ([9e38fa0](https://github.com/ambianic/ambianic-ui/commit/9e38fa0a10c2c984b0e588913acd912143715c45))
+
+## [2.12.1](https://github.com/ambianic/ambianic-ui/compare/v2.12.0...v2.12.1) (2021-02-05)
+
+
+### Bug Fixes
+
+* on a brand new install timeline doesn't auto refresh ([0359433](https://github.com/ambianic/ambianic-ui/commit/03594338c8b4efa600d683e7605a2d07ebf90668)), closes [#516](https://github.com/ambianic/ambianic-ui/issues/516)
+* on a brand new install timeline doesn't auto refresh ([f5127f9](https://github.com/ambianic/ambianic-ui/commit/f5127f98f644a0df1554dcdc8da013268f63e693))
+
+# [2.12.0](https://github.com/ambianic/ambianic-ui/compare/v2.11.0...v2.12.0) (2021-02-03)
+
+
+### Bug Fixes
+
+* default protection of sensitive peerID ([6c07973](https://github.com/ambianic/ambianic-ui/commit/6c07973d50687b53df892cedebe2c687538dbd8b)), closes [#510](https://github.com/ambianic/ambianic-ui/issues/510)
+* fixed breaking updates ([2dded9f](https://github.com/ambianic/ambianic-ui/commit/2dded9f61fa3b26bfa5613eb504f6a88742cfb68))
+* update obselete test suite ([4e0e8de](https://github.com/ambianic/ambianic-ui/commit/4e0e8dea2d25398d4634d42a8c6be3da8ca7b858))
+
+
+### Features
+
+* added default protection of sensitive peerID ([d42f521](https://github.com/ambianic/ambianic-ui/commit/d42f521a7ac9728a70de3bc1c55854a01aad1274))
+
+# [2.11.0](https://github.com/ambianic/ambianic-ui/compare/v2.10.0...v2.11.0) (2021-01-31)
+
+
+### Bug Fixes
+
+* adjust return users flow to navigate to timeline ([6193ee2](https://github.com/ambianic/ambianic-ui/commit/6193ee25e5be0c24ee6784c6595d3c36682513b3)), closes [#496](https://github.com/ambianic/ambianic-ui/issues/496)
+
+
+### Features
+
+* Adjusted return users flow to navigate to timeline ([c8c4877](https://github.com/ambianic/ambianic-ui/commit/c8c48774d95a27873b74e3aa040bac2ea3c01d54))
+
+# [2.10.0](https://github.com/ambianic/ambianic-ui/compare/v2.9.1...v2.10.0) (2021-01-23)
+
+
+### Features
+
+* new end to end installation flow, closes [#380](https://github.com/ambianic/ambianic-ui/issues/380) ([17175da](https://github.com/ambianic/ambianic-ui/commit/17175da96069c03e96dcff9c60df01e950550e40)), closes [#466](https://github.com/ambianic/ambianic-ui/issues/466)
+
+## [2.9.1](https://github.com/ambianic/ambianic-ui/compare/v2.9.0...v2.9.1) (2021-01-09)
+
+
+### Bug Fixes
+
+* simultaneous top/bottom timeline update spinner ([0d297cb](https://github.com/ambianic/ambianic-ui/commit/0d297cb540aa340dd0b9a84da0035b1907d5032b)), closes [#487](https://github.com/ambianic/ambianic-ui/issues/487)
+* simultaneous top/bottom timeline update spinner ([3a4b73f](https://github.com/ambianic/ambianic-ui/commit/3a4b73f83cb8a6164f1ca8d5b3cad676d2447bb3))
+
+# [2.9.0](https://github.com/ambianic/ambianic-ui/compare/v2.8.0...v2.9.0) (2021-01-08)
+
+
+### Features
+
+* timeline refresh to show new events, closes [#413](https://github.com/ambianic/ambianic-ui/issues/413) ([aac09d0](https://github.com/ambianic/ambianic-ui/commit/aac09d09574c2865f93e9e24262a168bb14276a6)), closes [#486](https://github.com/ambianic/ambianic-ui/issues/486)
+* timeline refresh, closes [#413](https://github.com/ambianic/ambianic-ui/issues/413) ([b27d14d](https://github.com/ambianic/ambianic-ui/commit/b27d14d7c734c581cf060ebcd66f291c80f47530))
+
+# [2.8.0](https://github.com/ambianic/ambianic-ui/compare/v2.7.0...v2.8.0) (2021-01-06)
+
+
+### Bug Fixes
+
+* tweak indentations ([c4926dc](https://github.com/ambianic/ambianic-ui/commit/c4926dc426969637096eea8498d1766240269f3f))
+
+
+### Features
+
+* change theme colors ([2c83edb](https://github.com/ambianic/ambianic-ui/commit/2c83edb1fd43a168a71c200983be7725ea82e384))
+* new theme colors ([81ec8b0](https://github.com/ambianic/ambianic-ui/commit/81ec8b07405140fdb7c8e21722924f626ab5c4a0)), closes [#445](https://github.com/ambianic/ambianic-ui/issues/445)
+
 # [2.7.0](https://github.com/ambianic/ambianic-ui/compare/v2.6.0...v2.7.0) (2020-11-26)
 
 

@@ -31,47 +31,24 @@
 
       <amb-button
         with-badge
+        data-cy="timeline-icon"
+        is-icon
+        icon="history"
+        btn-color="secondary"
+        to="timeline"
+      />
+
+      <amb-button
+        with-badge
         data-cy="download-off"
         is-icon
         icon="download-off"
+        btn-color="secondary"
         v-if="!isEdgeConnected"
         @click="$router.push('edge-connect')"
       />
 
-      <!-- test -->
-      <amb-button
-        with-badge
-        data-cy="heart"
-        is-icon
-        icon="heart"
-        :badge-content="newFavorites"
-        :badge-value="newFavorites"
-      />
-
-      <amb-button
-        with-badge
-        data-cy="bell"
-        is-icon
-        icon="bell"
-        :badge-content="newAlerts"
-        :badge-value="newAlerts"
-      />
-
-      <amb-button
-        is-icon
-        data-cy="about"
-        to="about"
-      >
-        <v-avatar
-          size="32px"
-          item
-        >
-          <v-img
-            src="@/assets/logo5.svg"
-            alt="Ambianic.ai logo"
-          />
-        </v-avatar>
-      </amb-button>
+      <AuthBarMenu />
     </v-app-bar>
 
     <!-- drawer -->
@@ -115,7 +92,7 @@
             append-icon=""
             :class="item.class"
           >
-            <template v-slot:activator>
+            <template #activator>
               <v-list-item>
                 <v-list-item-content>
                   <v-list-item-title>
@@ -129,7 +106,9 @@
               :key="i"
             >
               <v-list-item-action v-if="child.icon">
-                <v-icon>{{ child.icon }}</v-icon>
+                <v-icon color="primary">
+                  {{ child.icon }}
+                </v-icon>
               </v-list-item-action>
               <v-list-item-content>
                 <v-list-item-title>
@@ -145,7 +124,9 @@
             :class="item.class"
           >
             <v-list-item-action>
-              <v-icon>{{ item.icon }}</v-icon>
+              <v-icon :color="item.color">
+                {{ item.icon }}
+              </v-icon>
             </v-list-item-action>
             <v-list-item-content>
               <v-list-item-title>
@@ -168,10 +149,15 @@ import {
 export default {
   name: 'NavBar',
   components: {
-    AmbButton: () => import('./shared/Button.vue')
+    AmbButton: () => import('./shared/Button.vue'),
+    AuthBarMenu: () => import('./authBarMenu.vue')
   },
   data: () => ({
-    dialog: false,
+    fav: true,
+    menu: true,
+    message: false,
+    hints: true,
+
     drawer: null, // hide drawer on mobile and show on desktop
     on: true,
     newFavorites: 0,
@@ -222,7 +208,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-
-</style>

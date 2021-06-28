@@ -6,9 +6,8 @@
       class="pb-5"
       data-cy="template-row"
     >
-      <v-card>
+      <v-card flat>
         <v-card-title
-          class="light grey"
           data-cy="titlecard"
         >
           Ambianic Edge connection details
@@ -37,10 +36,12 @@
                 progress
                 banner-class="text-left"
                 icon="wifi-off"
+                icon-color="info"
                 text="Connecting to Ambianic Edge device..."
               />
               <v-card
                 class="mx-auto text-left"
+                flat
               >
                 <v-list
                   two-line
@@ -56,6 +57,7 @@
                     subtitle="Peer ID"
                     icon-name="identifier"
                     id="edgePeerID"
+                    :sensitive-field="true"
                   />
                   <amb-list-item
                     :title="version"
@@ -76,6 +78,7 @@
               <amb-banner
                 banner-class="text-left"
                 icon="wifi-off"
+                icon-color="info"
                 text="Let's find your Ambianic Edge device and connect to it..."
               />
               <v-stepper
@@ -131,7 +134,7 @@
             <v-dialog
               max-width="500"
             >
-              <v-card>
+              <v-card flat>
                 <v-card-title class="headline">
                   Reset device pairing?
                 </v-card-title>
@@ -168,14 +171,16 @@
     >
       <v-card>
         <v-card-title
-          class="light grey"
           data-cy="localtitlecard"
         >
           Pair with local Ambianic Edge device
         </v-card-title>
         <v-container grid-list-sm>
           <!-- top column -->
-          <v-card min-width="100">
+          <v-card
+            min-width="100"
+            flat
+          >
             <v-card-text class="text-center">
               <p class="text">
                 [On by default] Discover and pair with an Ambianic Edge device on
@@ -212,7 +217,6 @@
     >
       <v-card>
         <v-card-title
-          class="light grey"
           data-cy="remotetitlecard"
         >
           Pair with remote Ambianic Edge device
@@ -325,7 +329,7 @@ export default {
         state.pnp.peerConnectionStatus === PEER_CONNECTED,
       edgePeerId: state => state.pnp.remotePeerId,
       peerFetch: state => state.pnp.peerFetch,
-      version: state => state.version
+      version: state => state.edgeVersion
     }),
     connectStep: function () {
       let step = 1

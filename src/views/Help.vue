@@ -64,4 +64,5 @@ export default {
   components: {
     AmbListItem
   }
-}</script>
+}
+</script>
